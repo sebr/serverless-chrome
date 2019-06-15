@@ -41,7 +41,7 @@ export function getHandlerFileAndExportName (handler = '') {
 
   return {
     filePath: path.dirname(file),
-    fileName: `${path.basename(file)}.js`, // is it OK to assume .js?
+    fileName: `${path.basename(file)}.ts`, // is it OK to assume .js?
     exportName,
   }
 }
